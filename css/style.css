@@ -1,0 +1,703 @@
+* {
+    box-sizing: border-box;
+    background-color: #F5F5F5;
+}
+
+body{
+    font-family: 'Muller', sans-serif;
+
+}
+
+.container{
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+
+.header-nav-left{
+    display: inline-block;
+    background-color: white;
+    justify-content: center;
+}
+
+.btn{
+    margin-top: -2.5px;
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid #CC9933;
+    padding: 10px 10px;
+    width: 120px;
+    height: 50px;
+    font-size: 16px;
+    color: #CC9933;
+    text-align: center;
+}
+
+
+/*header*/
+
+.header-nav{
+width: 1170px;
+height: 80px;
+background-color: white;
+border-radius: 15px;
+}
+
+.header-nav-link, .header-nav-item, .header-nav-list,.header-nav-right,.header-nav{
+    background-color: white;
+}
+
+.header{
+    margin-bottom: 100px;
+    margin-top: 30px;
+}
+.header-top{
+    display: flex;
+    align-items: center;
+    margin-right: 0;
+    margin-bottom: 30px;
+}
+
+.header-nav-right {
+    margin-left: 45px;
+}
+
+.header-nav-left{
+    margin-top: 3px;
+    margin-right: 45px;
+    display: flex;
+    align-items: center;
+}
+
+.header-right{
+    display: flex;
+    align-items: center;
+}
+
+.heading{
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 400;
+    background-color: transparent;
+    color: #333333;;
+}
+
+.heading2{
+    margin-top: 40px;
+    color: white;
+    background-color: transparent;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+.header-left{
+    margin-right: 0;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.btn-want-tour{
+    margin-right: 40px;
+}
+
+.btn-call-back{
+    width: 177px;
+}
+
+.logo-header{
+    margin-right: 40px;
+}
+
+a:active, /* активная/посещенная ссылка */
+a:hover,  /* при наведении */
+a {
+  text-decoration: none;
+  color: black;
+}
+
+html{
+    font-family: sans-serif;
+}
+
+.header-nav-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.special-offers-item{
+    height: 258px;
+    background-image: url(/img/Group\ 68.png);
+}
+
+.price{
+    color: #FFFFFF;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 100;
+    opacity: 0.8;
+    margin-left: 40px;
+}
+
+.price-lux{
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.link-about{
+    color: #FFCC66;
+    font-size: 16px;
+    margin-left: 40px;
+}
+
+.special-offers-flex{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.keyboard-tab{
+    margin-right: 7px;
+}
+
+.link-personality{
+    color: #CC9933;
+}
+
+
+
+.header-nav{
+    display: flex;
+    align-items: center;
+}
+
+.header-nav-list{
+    display: flex;
+    list-style: none;
+}
+
+.header-nav-left{
+    
+    margin-left: auto;
+}
+
+.header-nav-item:not(:last-child){
+    margin-right: 30px;
+}
+
+.heading{
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.special-offers-cards{
+    display: flex;
+}
+
+.special-offers-list{
+    display: flex;
+    
+}
+
+.special-offers-item-luxury-room{
+    display: inline-block;
+    justify-content: end;
+    background-image: url(/img/Group\ 13.png);
+    width: 573px;
+    height: 540px;
+}
+
+.special-offers-lux{
+    margin-top: 190px;
+    background-color: transparent;
+}
+
+.arrow{
+    margin-top: 3px;
+    background-color: transparent;
+}
+
+.icon-advantage{
+    margin-top: 35px;
+    margin-left: 20px;
+    background-color: transparent;
+}
+
+.description-advantage{
+    width: 180px;
+    background-color: transparent;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 200%;
+    margin-left: 38px;
+}
+
+.special-offers-cards{
+    display: flex;
+}
+
+.special-offers-item-Maldiv{
+    width: 573px;
+    height: 258px;
+    margin-bottom: 24px;
+}
+
+.special-offers-item-krit{
+    width: 573px;
+    height: 258px;
+    background-image: url(/img/krit.png);
+}
+
+.btn-inform{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+}
+
+.link-about{
+    margin-right: 6px;
+}
+
+.heading2-luxury{
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: bold;
+}
+
+.special-offers-item{
+    display: inline-block;
+    width: 573px;
+}
+
+ul {
+    margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+   }
+
+.special-offers-item-last{
+    margin-top: 30px;
+}
+
+.heading-about-us{
+    margin-top: 70px;
+}
+
+.about-us{
+    margin-top: 40px;
+}
+
+.description-services{
+    margin-top: -1px;
+    margin-left: 45px;
+    background-color: transparent;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 200%;
+}
+
+.description{
+    margin-left: 0px;
+    background-color: transparent;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 200%;
+}
+
+.services-photo-card{
+    border-radius: 15px 15px 0 0;
+    width: 573px;
+    height: 165px;
+    background-color: transparent;
+}
+
+.services{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.services-list{
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.column-1{
+    margin-bottom: 20px;
+}
+
+.header-services{
+    margin-top: 20px;
+    margin-left: 45px;
+    background-color: transparent;
+}
+
+.link-services{
+    margin-right: 5px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 200%;
+    color: #CC9933;
+}
+
+.column-1, .column-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.services-item{
+    border-radius: 15px;
+    background-color: white;
+    width: 49%;
+    display: inline-block;
+}
+
+
+
+.advantages-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.advantages-item{
+    margin-bottom: 30px;
+    background-color: white;
+    width: 275px;
+    height: 275px;
+    border-radius: 15px;
+}
+
+
+
+.placement-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.placement-item{
+    border-radius: 15px;
+    background-color: white;
+    margin-bottom: 30px;
+    width: 32%;
+}
+
+.placement-card-heading{
+    margin-top: 35px;
+    margin-left: 45px;
+    display: flex;
+    background-color: white;
+    align-items: center;
+}
+
+.img{
+    border-radius: 15px 15px 0 0;
+}
+
+.name-place{
+    background-color: transparent;
+}
+
+.bold{
+    font-size: 20px;
+    line-height: 20px;
+    background-color: transparent;
+}
+
+.rate-of-hotel{
+    background-color: transparent;
+}
+
+.img-place{
+    background-color: transparent;
+}
+
+.sub-description{
+    background-color: white;
+}
+
+.name-place{
+    margin-right: 60px;
+    background-color: white;
+}
+
+.rate{
+    background-color: white;
+}
+
+.description-place{
+    background-color: transparent;
+    margin-left: 45px;
+    font-size: 16px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.sub-description{
+    margin-left: 45px;
+    font-size: 16px;
+    line-height: 16px;
+    color: #999999;
+}
+
+.btn-number{
+    margin-left: 45px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.placement-item{
+    border-radius: 15px;
+}
+
+.image-place{
+    width: 373px;
+    background-size: cover;
+    border-radius: 15px;
+    height: 455px;
+}
+
+.select{
+    width: 1170px;
+    height: 106px;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.take-off-form{
+    width: 168px;
+    margin-left: 26px;
+    background-color: white;
+}
+
+.distination-form{
+    background-color: white;
+}
+
+.calendar-form{
+    margin-top: 4px;
+    background-color: white;
+}
+
+.number-of-night-form{
+    
+    background-color: white;
+}
+
+.number-of-tourist-form{
+    
+    background-color: white;
+}
+
+.btn-found{
+    margin-right: 26px;
+}
+
+.city-set-off{
+    margin-top: 7px;
+    border-color: transparent;
+    background-color: white;
+}
+
+.small{
+    font-size: 12px;
+    line-height: 12px;
+    margin-left: 5px;
+    background-color: transparent;
+}
+
+.tourist{
+    border: transparent;
+    background-color: transparent;
+    border-bottom: 2px solid #CCCCCC;;
+}
+
+.date{
+    border: transparent;
+    background-color: transparent;
+    margin-top: 5px;
+}
+
+
+.number{
+    border-right: 2px solid #CCCCCC ;
+    border: transparent;
+    border-bottom: 2px solid #CCCCCC;
+    background-color: transparent;
+}
+
+.small-number{
+    margin-left: -0.2px;
+}
+
+.card-contacts{
+    border-radius: 15px;
+    background-color: white;
+    display: inline-block;
+}
+
+.card-contacts-list{
+    background-color: white;
+}
+
+.card-contacts-left{
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.card-contacts-right{
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+}
+
+.line{
+    margin-top: 25px;
+    border-bottom: 1px solid #CCCCCC;
+    width: 375px;
+    margin-left: 45px;
+    margin-bottom: 25px;
+}
+
+
+.left-column{
+    border-radius: 15px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+    margin-right: 85px;
+    margin-left: 46px;
+}
+
+.left-column-adress{
+    margin-top: 44px;
+}
+
+.right-column{
+    background-color: white;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.right-column-adress{
+    margin-top: 44px;
+}
+
+.image-contacts{
+    margin-top: 44px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+
+
+
+.two-column{
+    display: flex;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.btn-make-map{
+    width: 213px;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 45px;
+    margin-bottom: 40px;
+}
+
+.left-column-phone{
+    margin-right: 43px;
+}
+
+.left-column-email{
+    margin-right: 85px;
+}
+
+.left-column-grafik{
+    margin-right: 70px;
+}
+
+.right-column-phone{
+    color: #CC9933;
+}
+
+.book-text{
+    margin: 0;
+    background-color: transparent;
+    color: #999999;
+}
+
+.footer-flex{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 20px;
+    background-image: url(/img/Group\ 69.png);
+    height: 341px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 190%;
+    border-radius: 15px;
+}
+
+.footer-left{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+ 
+    margin-right: 50px;
+    color: white;
+}
+
+.adress{
+    margin-bottom: 20px;
+    background-color: transparent;
+}
+
+.footer-right{
+    background-color: transparent;
+    
+    margin-left: 50px;
+    color: white;
+}
+
+.footer-main{
+    background-color: transparent;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.contact{
+    font-size: 16px;
+    line-height: 150%;
+    color: #CC9933;
+
+}
+
+.component{
+    background-color: transparent;
+
+}
+
+.component:not(:last-child){
+    margin-bottom: 20px;
+}
+
